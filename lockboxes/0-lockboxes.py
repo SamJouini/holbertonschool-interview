@@ -32,6 +32,6 @@ def canUnlockAll(boxes):
             if key < n and key not in opened:
                 opened.add(key)
                 keys.append(key)
-                
+
     # If all boxes are in the opened set, return True
     return len(opened) == n
